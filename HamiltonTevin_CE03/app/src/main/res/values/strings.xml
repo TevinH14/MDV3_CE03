@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">HamiltonTevin_CE03</string>
+    <string name="weather_preferences">Weather Preferences</string>
+    <string name="theme_title">Theme</string>
+    <string name="summary_theme">"Choose light or dark theme "</string>
+    <string name="dialog_title_theme">Select theme</string>
+    <string name="todo">TODO</string>
+    <string name="location_title">Location</string>
+    <string name="summary_location">Sets the location to view the weather info</string>
+    <string name="dialog_title_Location">Select Location</string>
+
+    <!-- keys -->
+    <string name="key_list_preference_location">com.example.hamiltontevin_ce03.LOCATION</string>
+    <string name="key_list_preference_theme">com.example.hamiltontevin_ce03.THEME</string>
+    <string name="save">save</string>
+    <string name="high">High:</string>
+    <string name="low">Low:</string>
+
+
+    <string-array name="theme_entry_list">
+        <item>Light Theme</item>
+        <item>Dark Theme</item>
+    </string-array>
+    <string-array name="theme_entry_list_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="city_entry_list">
+        <item>Orlando</item>
+        <item>New York</item>
+        <item>San Francisco</item>
+    </string-array>
+    <string-array name="city_entry_list_values">
+        <item>28.5383,-81.3792</item>
+        <item>40.7143,-74.006</item>
+        <item>37.7749,-122.4194</item>
+    </string-array>
+
+
+</resources>

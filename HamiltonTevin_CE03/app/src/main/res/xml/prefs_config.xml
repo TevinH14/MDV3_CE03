@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/weather_preferences" >
+
+        <ListPreference
+            android:key="@string/key_list_preference_theme"
+            android:title="@string/theme_title"
+            android:summary="@string/summary_theme"
+            android:entries="@array/theme_entry_list"
+            android:entryValues="@array/theme_entry_list_values"
+            android:dialogTitle="@string/dialog_title_theme"
+            app:defaultValue="0"/>
+
+        <ListPreference
+            android:key="@string/key_list_preference_location"
+            android:title="@string/location_title"
+            android:summary="@string/summary_location"
+            android:entries="@array/city_entry_list"
+            android:entryValues="@array/city_entry_list_values"
+            android:dialogTitle="@string/dialog_title_Location"
+            app:defaultValue="28.5383,-81.3792"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
